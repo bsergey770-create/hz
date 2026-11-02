@@ -1,0 +1,10 @@
+=== TLS ===
+StartVA=0x1808b23c0 EndVA=0x1808b23e8 CallbacksVA=0x180c9f468
+
+=== LOAD CONFIG ===
+GuardCFCheck=0x180919500 GuardCFDispatch=0x0
+CFFunctionTable=0x0 Count=6448134208
+GuardFlags=0x8056b850 CFG=False Fptr=False HotPatch=False
+SecurityCookie VA=0x0
+SEHTable RVA=0x0 count=0
+GuardIAT RVA=0x0 size=0x0

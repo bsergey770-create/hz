@@ -1,0 +1,8 @@
+E8 call xrefs to DllMain attach handler: ['0x4ed89c']
+cookie/sentinel global RVA: 0x919500 value: 32a2df2d992b0000
+xrefs to sentinel global (count 0): []
+IAT slot used at RVA 0x4edc8a: RVA 0x56b2a1 -> ?
+IAT slot used at RVA 0x4edc9a: RVA 0x56b169 -> ?
+IAT slot used at RVA 0x4edca7: RVA 0x56b3c1 -> ?
+IAT slot used at RVA 0x4edcb9: RVA 0x56b1c1 -> ?
+IAT slot used at RVA 0x4edd17: RVA 0x56b47f -> ?

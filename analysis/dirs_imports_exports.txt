@@ -1,0 +1,221 @@
+EXPORT           RVA=0x00916120 Size=0x00000f24
+IMPORT           RVA=0x00917044 Size=0x000000dc
+RESOURCE         RVA=0x0114a000 Size=0x0000b420
+EXCEPTION(pdata) RVA=0x01117000 Size=0x0003189c
+BASERELOC        RVA=0x01156000 Size=0x0000887c
+DEBUG            RVA=0x008aeab0 Size=0x00000070
+TLS              RVA=0x008aec80 Size=0x00000028
+LOAD_CONFIG      RVA=0x008ae970 Size=0x00000140
+IAT              RVA=0x0056b000 Size=0x00000840
+
+=== IMPORTS ===
+
+[d3d11.dll] (1 funcs)
+  D3D11CreateDeviceAndSwapChain
+
+[USER32.dll] (45 funcs)
+  CallWindowProcA, ClientToScreen, ClipCursor, CloseClipboard, CreateWindowExA, DefWindowProcA, DefWindowProcW, DestroyWindow, EmptyClipboard, FlashWindowEx, GetAsyncKeyState, GetCapture, GetClassLongPtrW, GetClientRect, GetClipCursor, GetClipboardData, GetCursorInfo, GetCursorPos, GetDC, GetForegroundWindow, GetKeyNameTextA, GetKeyState, GetKeyboardLayout, GetMessageExtraInfo, GetRawInputData, IsWindowUnicode, LoadCursorW, LoadIconW, MapVirtualKeyA, MessageBoxA, MonitorFromWindow, OpenClipboard, PostMessageA, RegisterClassExA, ReleaseCapture, ReleaseDC, ScreenToClient, SetCapture, SetClipboardData, SetCursor, SetCursorPos, SetWindowLongPtrA, SystemParametersInfoA, TrackMouseEvent, UnregisterClassA
+
+[KERNEL32.dll] (181 funcs)
+  AcquireSRWLockExclusive, AcquireSRWLockShared, AreFileApisANSI, Beep, CloseHandle, CloseThreadpoolWork, CompareStringW, CopyFile2, CreateDirectoryW, CreateFile2, CreateFileW, CreateThread, CreateThreadpoolWork, CreateToolhelp32Snapshot, DecodePointer, DeleteCriticalSection, DeleteFileA, DisableThreadLibraryCalls, EncodePointer, EnterCriticalSection, EnumSystemLocalesW, ExitProcess, ExitThread, FileTimeToSystemTime, FindClose, FindFirstFileExW, FindFirstFileW, FindNextFileW, FindResourceA, FlsAlloc, FlsFree, FlsGetValue, FlsSetValue, FlushFileBuffers, FlushInstructionCache, FormatMessageA, FreeEnvironmentStringsW, FreeLibrary, FreeLibraryAndExitThread, FreeLibraryWhenCallbackReturns, GetACP, GetCPInfo, GetCommandLineA, GetCommandLineW, GetConsoleMode, GetConsoleOutputCP, GetCurrentDirectoryW, GetCurrentProcess, GetCurrentProcessId, GetCurrentThreadId, GetDateFormatW, GetDriveTypeW, GetEnvironmentStringsW, GetExitCodeThread, GetFileAttributesA, GetFileAttributesExW, GetFileInformationByHandle, GetFileInformationByHandleEx, GetFileSizeEx, GetFileType, GetFinalPathNameByHandleW, GetFullPathNameW, GetLastError, GetLocalTime, GetLocaleInfoA, GetLocaleInfoEx, GetLocaleInfoW, GetLogicalProcessorInformationEx, GetModuleFileNameW, GetModuleHandleA, GetModuleHandleExA, GetModuleHandleExW, GetModuleHandleW, GetOEMCP, GetProcAddress, GetProcessHeap, GetStartupInfoW, GetStdHandle, GetStringTypeW, GetSystemInfo, GetSystemTimeAsFileTime, GetSystemTimePreciseAsFileTime, GetThreadContext, GetTickCount, GetTickCount64, GetTimeFormatW, GetTimeZoneInformation, GetUserDefaultLCID, GetUserDefaultLocaleName, GetWindowsDirectoryA, GlobalAlloc, GlobalFree, GlobalLock, GlobalMemoryStatusEx, GlobalUnlock, HeapAlloc, HeapCreate, HeapDestroy, HeapFree, HeapQueryInformation, HeapReAlloc, HeapSize, InitOnceBeginInitialize, InitOnceComplete, InitializeCriticalSection, InitializeCriticalSectionEx, InitializeSListHead, InterlockedFlushSList, IsDBCSLeadByte, IsDebuggerPresent, IsProcessorFeaturePresent, IsValidCodePage, IsValidLocale, K32GetModuleInformation, LCMapStringEx, LCMapStringW, LeaveCriticalSection, LoadLibraryA, LoadLibraryExA, LoadLibraryExW, LoadLibraryW, LoadResource, LocalFree, LockResource, MoveFileExA, MoveFileExW, MultiByteToWideChar, OpenThread, OutputDebugStringA, PeekNamedPipe, QueryPerformanceCounter, QueryPerformanceFrequency, RaiseException, ReadConsoleW, ReadFile, ReleaseSRWLockExclusive, ReleaseSRWLockShared, ResumeThread, RtlAddFunctionTable, RtlCaptureContext, RtlDeleteFunctionTable, RtlLookupFunctionEntry, RtlPcToFileHeader, RtlRestoreContext, RtlUnwind, RtlUnwindEx, RtlVirtualUnwind, SetEndOfFile, SetEnvironmentVariableW, SetEvent, SetFileInformationByHandle, SetFilePointerEx, SetFileTime, SetLastError, SetStdHandle, SetThreadContext, SetUnhandledExceptionFilter, SizeofResource, Sleep, SleepConditionVariableSRW, SubmitThreadpoolWork, SuspendThread, SystemTimeToTzSpecificLocalTime, TerminateProcess, TerminateThread, Thread32First, Thread32Next, TryAcquireSRWLockExclusive, UnhandledExceptionFilter, VirtualAlloc, VirtualFree, VirtualProtect, VirtualQuery, WaitForSingleObject, WaitForSingleObjectEx, WaitForThreadpoolWorkCallbacks, WakeAllConditionVariable, WakeConditionVariable, WideCharToMultiByte, WriteConsoleW, WriteFile
+
+[GDI32.dll] (1 funcs)
+  GetDeviceCaps
+
+[ADVAPI32.dll] (4 funcs)
+  RegCloseKey, RegGetValueW, RegOpenKeyExW, RegQueryValueExW
+
+[SHELL32.dll] (3 funcs)
+  ShellExecuteA, ShellExecuteW, Shell_NotifyIconW
+
+[ole32.dll] (3 funcs)
+  CoCreateInstance, CoInitializeEx, CoUninitialize
+
+[WINHTTP.dll] (11 funcs)
+  WinHttpCloseHandle, WinHttpConnect, WinHttpCrackUrl, WinHttpOpen, WinHttpOpenRequest, WinHttpQueryDataAvailable, WinHttpQueryHeaders, WinHttpReadData, WinHttpReceiveResponse, WinHttpSendRequest, WinHttpSetTimeouts
+
+[IMM32.dll] (4 funcs)
+  ImmGetContext, ImmReleaseContext, ImmSetCandidateWindow, ImmSetCompositionWindow
+
+[D3DCOMPILER_47.dll] (1 funcs)
+  D3DCompile
+
+=== EXPORTS ===
+Name: neverwin.dll, nExports=177
+  ordinal 1: __swprintf_l RVA=0x0047fe80 
+  ordinal 2: __vswprintf_l RVA=0x0047fee0 
+  ordinal 3: _fprintf_l RVA=0x0047ff30 
+  ordinal 4: _fprintf_p RVA=0x0047ff80 
+  ordinal 5: _fprintf_p_l RVA=0x0047ffd0 
+  ordinal 6: _fprintf_s_l RVA=0x00480020 
+  ordinal 7: _fscanf_l RVA=0x00480070 
+  ordinal 8: _fscanf_s_l RVA=0x004800c0 
+  ordinal 9: _fwprintf_l RVA=0x00480110 
+  ordinal 10: _fwprintf_p RVA=0x00480160 
+  ordinal 11: _fwprintf_p_l RVA=0x004801b0 
+  ordinal 12: _fwprintf_s_l RVA=0x00480200 
+  ordinal 13: _fwscanf_l RVA=0x00480250 
+  ordinal 14: _fwscanf_s_l RVA=0x004802a0 
+  ordinal 15: _printf_l RVA=0x004802f0 
+  ordinal 16: _printf_p RVA=0x00480350 
+  ordinal 17: _printf_p_l RVA=0x004803b0 
+  ordinal 18: _printf_s_l RVA=0x00480410 
+  ordinal 19: _scanf_l RVA=0x00480470 
+  ordinal 20: _scanf_s_l RVA=0x004804c0 
+  ordinal 21: _scprintf RVA=0x000b7cc0 
+  ordinal 22: _scprintf_l RVA=0x00480520 
+  ordinal 23: _scprintf_p RVA=0x00480580 
+  ordinal 24: _scprintf_p_l RVA=0x004805e0 
+  ordinal 25: _scwprintf RVA=0x00480640 
+  ordinal 26: _scwprintf_l RVA=0x004806a0 
+  ordinal 27: _scwprintf_p RVA=0x00480700 
+  ordinal 28: _scwprintf_p_l RVA=0x00480760 
+  ordinal 29: _snprintf RVA=0x004807c0 
+  ordinal 30: _snprintf_c RVA=0x00480820 
+  ordinal 31: _snprintf_c_l RVA=0x00480880 
+  ordinal 32: _snprintf_l RVA=0x004808e0 
+  ordinal 33: _snprintf_s RVA=0x00480940 
+  ordinal 34: _snprintf_s_l RVA=0x004809b0 
+  ordinal 35: _snscanf RVA=0x00480a10 
+  ordinal 36: _snscanf_l RVA=0x00480a60 
+  ordinal 37: _snscanf_s RVA=0x00480ab0 
+  ordinal 38: _snscanf_s_l RVA=0x00480b10 
+  ordinal 39: _snwprintf RVA=0x00480b70 
+  ordinal 40: _snwprintf_l RVA=0x00480bd0 
+  ordinal 41: _snwprintf_s RVA=0x00480c30 
+  ordinal 42: _snwprintf_s_l RVA=0x00480ca0 
+  ordinal 43: _snwscanf RVA=0x00480d00 
+  ordinal 44: _snwscanf_l RVA=0x00480d50 
+  ordinal 45: _snwscanf_s RVA=0x00480da0 
+  ordinal 46: _snwscanf_s_l RVA=0x00480e00 
+  ordinal 47: _sprintf_l RVA=0x00480e60 
+  ordinal 48: _sprintf_p RVA=0x00480ec0 
+  ordinal 49: _sprintf_p_l RVA=0x00480f20 
+  ordinal 50: _sprintf_s_l RVA=0x00480f80 
+  ordinal 51: _sscanf_l RVA=0x00480fe0 
+  ordinal 52: _sscanf_s_l RVA=0x00481030 
+  ordinal 53: _swprintf RVA=0x00481090 
+  ordinal 54: _swprintf_c RVA=0x004810f0 
+  ordinal 55: _swprintf_c_l RVA=0x00481150 
+  ordinal 56: _swprintf_l RVA=0x00481150 
+  ordinal 57: _swprintf_p RVA=0x004811b0 
+  ordinal 58: _swprintf_p_l RVA=0x00481210 
+  ordinal 59: _swprintf_s_l RVA=0x00481270 
+  ordinal 60: _swscanf_l RVA=0x004812d0 
+  ordinal 61: _swscanf_s_l RVA=0x00481320 
+  ordinal 62: _vfprintf_l RVA=0x002b2120 
+  ordinal 63: _vfprintf_p RVA=0x00481380 
+  ordinal 64: _vfprintf_p_l RVA=0x004813d0 
+  ordinal 65: _vfprintf_s_l RVA=0x00481410 
+  ordinal 66: _vfscanf_l RVA=0x00481450 
+  ordinal 67: _vfscanf_s_l RVA=0x00481490 
+  ordinal 68: _vfwprintf_l RVA=0x004814d0 
+  ordinal 69: _vfwprintf_p RVA=0x00481510 
+  ordinal 70: _vfwprintf_p_l RVA=0x00481560 
+  ordinal 71: _vfwprintf_s_l RVA=0x004815a0 
+  ordinal 72: _vfwscanf_l RVA=0x004815e0 
+  ordinal 73: _vfwscanf_s_l RVA=0x00481620 
+  ordinal 74: _vprintf_l RVA=0x00481660 
+  ordinal 75: _vprintf_p RVA=0x004816b0 
+  ordinal 76: _vprintf_p_l RVA=0x00481700 
+  ordinal 77: _vprintf_s_l RVA=0x00481750 
+  ordinal 78: _vscanf_l RVA=0x004817a0 
+  ordinal 79: _vscanf_s_l RVA=0x004817e0 
+  ordinal 80: _vscprintf RVA=0x00481830 
+  ordinal 81: _vscprintf_l RVA=0x000b7c60 
+  ordinal 82: _vscprintf_p RVA=0x00481880 
+  ordinal 83: _vscprintf_p_l RVA=0x004818d0 
+  ordinal 84: _vscwprintf RVA=0x00481930 
+  ordinal 85: _vscwprintf_l RVA=0x00481980 
+  ordinal 86: _vscwprintf_p RVA=0x004819e0 
+  ordinal 87: _vscwprintf_p_l RVA=0x00481a30 
+  ordinal 88: _vsnprintf RVA=0x003d62d0 
+  ordinal 89: _vsnprintf_c RVA=0x00481a90 
+  ordinal 90: _vsnprintf_c_l RVA=0x00481ae0 
+  ordinal 91: _vsnprintf_l RVA=0x003d6270 
+  ordinal 92: _vsnprintf_s RVA=0x00481b30 
+  ordinal 93: _vsnprintf_s_l RVA=0x00481b90 
+  ordinal 94: _vsnwprintf RVA=0x00481bf0 
+  ordinal 95: _vsnwprintf_l RVA=0x00481c40 
+  ordinal 96: _vsnwprintf_s RVA=0x00481ca0 
+  ordinal 97: _vsnwprintf_s_l RVA=0x00481d00 
+  ordinal 98: _vsnwscanf_l RVA=0x00481d60 
+  ordinal 99: _vsnwscanf_s_l RVA=0x00481db0 
+  ordinal 100: _vsprintf_l RVA=0x00481e00 
+  ordinal 101: _vsprintf_p RVA=0x00481e50 
+  ordinal 102: _vsprintf_p_l RVA=0x00481ea0 
+  ordinal 103: _vsprintf_s_l RVA=0x0009c9a0 
+  ordinal 104: _vsscanf_l RVA=0x00013710 
+  ordinal 105: _vsscanf_s_l RVA=0x00096f90 
+  ordinal 106: _vswprintf RVA=0x00481ef0 
+  ordinal 107: _vswprintf_c RVA=0x00481f50 
+  ordinal 108: _vswprintf_c_l RVA=0x00481fa0 
+  ordinal 109: _vswprintf_l RVA=0x00481fa0 
+  ordinal 110: _vswprintf_p RVA=0x00481ff0 
+  ordinal 111: _vswprintf_p_l RVA=0x00482040 
+  ordinal 112: _vswprintf_s_l RVA=0x00482090 
+  ordinal 113: _vswscanf_l RVA=0x004820e0 
+  ordinal 114: _vswscanf_s_l RVA=0x00482130 
+  ordinal 115: _vwprintf_l RVA=0x00482180 
+  ordinal 116: _vwprintf_p RVA=0x004821d0 
+  ordinal 117: _vwprintf_p_l RVA=0x00482220 
+  ordinal 118: _vwprintf_s_l RVA=0x00482270 
+  ordinal 119: _vwscanf_l RVA=0x004822c0 
+  ordinal 120: _vwscanf_s_l RVA=0x00482300 
+  ordinal 121: _wprintf_l RVA=0x00482350 
+  ordinal 122: _wprintf_p RVA=0x004823b0 
+  ordinal 123: _wprintf_p_l RVA=0x00482410 
+  ordinal 124: _wprintf_s_l RVA=0x00482470 
+  ordinal 125: _wscanf_l RVA=0x004824d0 
+  ordinal 126: _wscanf_s_l RVA=0x00482520 
+  ordinal 127: fprintf RVA=0x002b2160 
+  ordinal 128: fprintf_s RVA=0x004826d0 
+  ordinal 129: fscanf RVA=0x00482720 
+  ordinal 130: fscanf_s RVA=0x00482770 
+  ordinal 131: fwprintf RVA=0x004827c0 
+  ordinal 132: fwprintf_s RVA=0x00482810 
+  ordinal 133: fwscanf RVA=0x00482860 
+  ordinal 134: fwscanf_s RVA=0x004828b0 
+  ordinal 135: printf RVA=0x003d6220 
+  ordinal 136: printf_s RVA=0x00483030 
+  ordinal 137: scanf RVA=0x00483120 
+  ordinal 138: scanf_s RVA=0x00483170 
+  ordinal 139: snprintf RVA=0x000136b0 
+  ordinal 140: sprintf RVA=0x004831d0 
+  ordinal 141: sprintf_s RVA=0x0009c9f0 
+  ordinal 142: sscanf RVA=0x00013760 
+  ordinal 143: sscanf_s RVA=0x00097040 
+  ordinal 144: swprintf RVA=0x004810f0 
+  ordinal 145: swprintf_s RVA=0x00483230 
+  ordinal 146: swscanf RVA=0x00483290 
+  ordinal 147: swscanf_s RVA=0x004832f0 
+  ordinal 148: vfprintf RVA=0x00483350 
+  ordinal 149: vfprintf_s RVA=0x004833a0 
+  ordinal 150: vfscanf RVA=0x004833f0 
+  ordinal 151: vfscanf_s RVA=0x00483440 
+  ordinal 152: vfwprintf RVA=0x00483490 
+  ordinal 153: vfwprintf_s RVA=0x004834e0 
+  ordinal 154: vfwscanf RVA=0x00483530 
+  ordinal 155: vfwscanf_s RVA=0x00483580 
+  ordinal 156: vprintf RVA=0x004835d0 
+  ordinal 157: vprintf_s RVA=0x00483620 
+  ordinal 158: vscanf RVA=0x00483670 
+  ordinal 159: vscanf_s RVA=0x004836c0 
+  ordinal 160: vsnprintf RVA=0x00013660 
+  ordinal 161: vsnprintf_s RVA=0x00481b30 
+  ordinal 162: vsprintf RVA=0x00483710 
+  ordinal 163: vsprintf_s RVA=0x00483770 
+  ordinal 164: vsscanf RVA=0x004837c0 
+  ordinal 165: vsscanf_s RVA=0x00096fe0 
+  ordinal 166: vswprintf RVA=0x00481f50 
+  ordinal 167: vswprintf_s RVA=0x00483810 
+  ordinal 168: vswscanf RVA=0x00483860 
+  ordinal 169: vswscanf_s RVA=0x004838b0 
+  ordinal 170: vwprintf RVA=0x00483910 
+  ordinal 171: vwprintf_s RVA=0x00483960 
+  ordinal 172: vwscanf RVA=0x004839b0 
+  ordinal 173: vwscanf_s RVA=0x00483a00 
+  ordinal 174: wprintf RVA=0x00483a50 
+  ordinal 175: wprintf_s RVA=0x00483ab0 
+  ordinal 176: wscanf RVA=0x00483b10 
+  ordinal 177: wscanf_s RVA=0x00483b60 
