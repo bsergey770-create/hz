@@ -1,0 +1,26 @@
+{
+ "section": ".nlart",
+ "count": 2,
+ "icons": [
+  {
+   "file": "analysis/icons/logo_square.svg",
+   "rva": "0x115f000",
+   "bytes": 187526,
+   "paths": 2040,
+   "viewbox_size": [
+    "160",
+    "160"
+   ]
+  },
+  {
+   "file": "analysis/icons/cracker.svg",
+   "rva": "0x118cc90",
+   "bytes": 195796,
+   "paths": 2042,
+   "viewbox_size": [
+    "412.41",
+    "100"
+   ]
+  }
+ ]
+}

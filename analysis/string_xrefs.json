@@ -1,0 +1,1804 @@
+{
+ "[nl_view] landing bob | landed: fall vel": [
+  [
+   "0x45e86",
+   "0x45f3d",
+   "[nl_view] landing bob | landed: fall velocity %.1f -> %.1f | after CalcView m_bI"
+  ]
+ ],
+ "[nl_view] landing bob | slot 34 also run": [
+  [
+   "0x460c8",
+   "0x460e6",
+   "[nl_view] landing bob | slot 34 also runs outside CalcView (return %p): cleared "
+  ]
+ ],
+ "[nl_view] landing bob | blocked before s": [
+  [
+   "0x460c8",
+   "0x4616e",
+   "[nl_view] landing bob | blocked before slot 34 (%s CalcView, return %p) | m_bInL"
+  ]
+ ],
+ "ccsplayer_cameraservices slot 34": [
+  [
+   "0x4ca18",
+   "0x4ca4a",
+   "CCSPlayer_CameraServices slot 34"
+  ],
+  [
+   "0x4ca18",
+   "0x4ca83",
+   "CCSPlayer_CameraServices slot 34"
+  ]
+ ],
+ "ccsobserver_cameraservices slot 34": [
+  [
+   "0x4ca18",
+   "0x4cab1",
+   "CCSObserver_CameraServices slot 34"
+  ],
+  [
+   "0x4ca18",
+   "0x4cae9",
+   "CCSObserver_CameraServices slot 34"
+  ]
+ ],
+ "ccsobserver_observerservices slot 34": [
+  [
+   "0x4ca18",
+   "0x4cb15",
+   "CCSObserver_ObserverServices slot 34"
+  ],
+  [
+   "0x4ca18",
+   "0x4cb4d",
+   "CCSObserver_ObserverServices slot 34"
+  ]
+ ],
+ "calcview slot 33": [
+  [
+   "0x4ca18",
+   "0x4cb79",
+   "CalcView slot 33"
+  ],
+  [
+   "0x4ca18",
+   "0x4cbb1",
+   "CalcView slot 33"
+  ]
+ ],
+ "a command is only valid inside its creat": [
+  [
+   "0x5d050",
+   "0x5d07f",
+   "a command is only valid inside its createmove callback"
+  ],
+  [
+   "0x5d0b0",
+   "0x5d0df",
+   "a command is only valid inside its createmove callback"
+  ],
+  [
+   "0x5d130",
+   "0x5d1a0",
+   "a command is only valid inside its createmove callback"
+  ],
+  [
+   "0x5d1d0",
+   "0x5d1ff",
+   "a command is only valid inside its createmove callback"
+  ],
+  [
+   "0x5d280",
+   "0x5d2f0",
+   "a command is only valid inside its createmove callback"
+  ],
+  [
+   "0x5d320",
+   "0x5d393",
+   "a command is only valid inside its createmove callback"
+  ],
+  [
+   "0x5d3c0",
+   "0x5d3ef",
+   "a command is only valid inside its createmove callback"
+  ],
+  [
+   "0x5d470",
+   "0x5d4a6",
+   "a command is only valid inside its createmove callback"
+  ],
+  [
+   "0x5d600",
+   "0x5d62f",
+   "a command is only valid inside its createmove callback"
+  ],
+  [
+   "0x5d750",
+   "0x5d77f",
+   "a command is only valid inside its createmove callback"
+  ],
+  [
+   "0x5d850",
+   "0x5d87f",
+   "a command is only valid inside its createmove callback"
+  ],
+  [
+   "0x79a90",
+   "0x79ac5",
+   "a command is only valid inside its createmove callback"
+  ],
+  [
+   "0xa42d0",
+   "0xa42fc",
+   "a command is only valid inside its createmove callback"
+  ],
+  [
+   "0xa4600",
+   "0xa462c",
+   "a command is only valid inside its createmove callback"
+  ],
+  [
+   "0xa49b0",
+   "0xa49df",
+   "a command is only valid inside its createmove callback"
+  ],
+  [
+   "0xa4a30",
+   "0xa4a66",
+   "a command is only valid inside its createmove callback"
+  ],
+  [
+   "0xa4c00",
+   "0xa4c2f",
+   "a command is only valid inside its createmove callback"
+  ],
+  [
+   "0xa4ce0",
+   "0xa4d0f",
+   "a command is only valid inside its createmove callback"
+  ],
+  [
+   "0xa4d80",
+   "0xa4daf",
+   "a command is only valid inside its createmove callback"
+  ],
+  [
+   "0xa4e60",
+   "0xa4e8f",
+   "a command is only valid inside its createmove callback"
+  ],
+  [
+   "0xa4ec0",
+   "0xa4eef",
+   "a command is only valid inside its createmove callback"
+  ],
+  [
+   "0xa4f50",
+   "0xa4f84",
+   "a command is only valid inside its createmove callback"
+  ]
+ ],
+ "%s works only in createmove, frame_stage": [
+  [
+   "0x60990",
+   "0x609b3",
+   "%s works only in createmove, frame_stage and game event callbacks"
+  ],
+  [
+   "0x60c50",
+   "0x60c7c",
+   "%s works only in createmove, frame_stage and game event callbacks"
+  ],
+  [
+   "0x60fc0",
+   "0x60fea",
+   "%s works only in createmove, frame_stage and game event callbacks"
+  ],
+  [
+   "0xa52c0",
+   "0xa5309",
+   "%s works only in createmove, frame_stage and game event callbacks"
+  ],
+  [
+   "0xa64a0",
+   "0xa64c2",
+   "%s works only in createmove, frame_stage and game event callbacks"
+  ],
+  [
+   "0xa6890",
+   "0xa68b5",
+   "%s works only in createmove, frame_stage and game event callbacks"
+  ],
+  [
+   "0xa6a10",
+   "0xa6a4f",
+   "%s works only in createmove, frame_stage and game event callbacks"
+  ],
+  [
+   "0xa7060",
+   "0xa70ac",
+   "%s works only in createmove, frame_stage and game event callbacks"
+  ]
+ ],
+ "createmove": [
+  [
+   "0x74460",
+   "0x744fd",
+   "createmove"
+  ]
+ ],
+ "wl_chams.log": [
+  [
+   "0x8f59f",
+   "0x8f605",
+   "wl_chams.log"
+  ],
+  [
+   "0x92f20",
+   "0x92fb4",
+   "wl_chams.log"
+  ],
+  [
+   "0x94950",
+   "0x949de",
+   "wl_chams.log"
+  ]
+ ],
+ "source2clientprediction001": [
+  [
+   "0x903be",
+   "0x903fd",
+   "Source2ClientPrediction001"
+  ],
+  [
+   "0x1d7f3d",
+   "0x1d7f74",
+   "Source2ClientPrediction001"
+  ],
+  [
+   "0x1d95d0",
+   "0x1d9894",
+   "Source2ClientPrediction001"
+  ],
+  [
+   "0x232f80",
+   "0x2337c1",
+   "Source2ClientPrediction001"
+  ],
+  [
+   "0x26956b",
+   "0x269f10",
+   "Source2ClientPrediction001"
+  ],
+  [
+   "0x26b480",
+   "0x26b4bd",
+   "Source2ClientPrediction001"
+  ],
+  [
+   "0x469530",
+   "0x469657",
+   "Source2ClientPrediction001"
+  ]
+ ],
+ "c:\\neverwin\\lua_owners.txt": [
+  [
+   "0x9ddb0",
+   "0x9de02",
+   "C:\\neverwin\\lua_owners.txt"
+  ],
+  [
+   "0x9e4c0",
+   "0x9ebbd",
+   "C:\\neverwin\\lua_owners.txt"
+  ]
+ ],
+ "engine.simulate works only inside create": [
+  [
+   "0xa52c0",
+   "0xa5326",
+   "engine.simulate works only inside createmove"
+  ]
+ ],
+ "neverwin.one": [
+  [
+   "0xd7d70",
+   "0xd7f94",
+   "neverwin.one"
+  ],
+  [
+   "0x307870",
+   "0x308769",
+   "neverwin.one"
+  ]
+ ],
+ "aimbot.enabled": [
+  [
+   "0xf5f60",
+   "0xf6327",
+   "aimbot.enabled"
+  ],
+  [
+   "0x29b410",
+   "0x29b805",
+   "aimbot.enabled"
+  ]
+ ],
+ "targets.enemy.chams.visible": [
+  [
+   "0xf6940",
+   "0xf6a25",
+   "targets.enemy.chams.visible"
+  ]
+ ],
+ "targets.enemy.chams.occluded": [
+  [
+   "0xf6940",
+   "0xf6a5e",
+   "targets.enemy.chams.occluded"
+  ]
+ ],
+ "targets.ragdolls.chams.visible": [
+  [
+   "0xf6940",
+   "0xf6bf3",
+   "targets.ragdolls.chams.visible"
+  ]
+ ],
+ "targets.ragdolls.chams.occluded": [
+  [
+   "0xf6940",
+   "0xf6cf7",
+   "targets.ragdolls.chams.occluded"
+  ]
+ ],
+ "targets.team.chams.visible": [
+  [
+   "0xf6940",
+   "0xf6d45",
+   "targets.team.chams.visible"
+  ]
+ ],
+ "targets.team.chams.occluded": [
+  [
+   "0xf6940",
+   "0xf6d7e",
+   "targets.team.chams.occluded"
+  ]
+ ],
+ "targets.local.chams.visible": [
+  [
+   "0xf6940",
+   "0xf6db7",
+   "targets.local.chams.visible"
+  ]
+ ],
+ "targets.local.chams.overlay": [
+  [
+   "0xf6940",
+   "0xf6df0",
+   "targets.local.chams.overlay"
+  ]
+ ],
+ "legitbot.global.aimbot.enabled": [
+  [
+   "0xf6940",
+   "0xf8ba2",
+   "legitbot.global.aimbot.enabled"
+  ]
+ ],
+ "triggerbot.enabled": [
+  [
+   "0xf6940",
+   "0xf8c6f",
+   "triggerbot.enabled"
+  ],
+  [
+   "0xf6940",
+   "0xfa0a0",
+   "triggerbot.enabled"
+  ],
+  [
+   "0xff4a0",
+   "0x105817",
+   "triggerbot.enabled"
+  ],
+  [
+   "0x107040",
+   "0x10d8db",
+   "triggerbot.enabled"
+  ],
+  [
+   "0x10d970",
+   "0x1141fd",
+   "triggerbot.enabled"
+  ],
+  [
+   "0x114280",
+   "0x11aacb",
+   "triggerbot.enabled"
+  ],
+  [
+   "0x11ab60",
+   "0x1213fa",
+   "triggerbot.enabled"
+  ],
+  [
+   "0x1214c0",
+   "0x127d7b",
+   "triggerbot.enabled"
+  ],
+  [
+   "0x127e20",
+   "0x12e67c",
+   "triggerbot.enabled"
+  ],
+  [
+   "0x12e710",
+   "0x134fcd",
+   "triggerbot.enabled"
+  ],
+  [
+   "0x135070",
+   "0x13b917",
+   "triggerbot.enabled"
+  ],
+  [
+   "0x13b9d0",
+   "0x14221b",
+   "triggerbot.enabled"
+  ],
+  [
+   "0x29b410",
+   "0x29b70b",
+   "triggerbot.enabled"
+  ]
+ ],
+ "triggerbot.require_key": [
+  [
+   "0xf6940",
+   "0xf9f2d",
+   "triggerbot.require_key"
+  ]
+ ],
+ "legitbot.global.triggerbot.enabled": [
+  [
+   "0xf6940",
+   "0xf9fda",
+   "legitbot.global.triggerbot.enabled"
+  ]
+ ],
+ "lua_output": [
+  [
+   "0xff4a0",
+   "0x101166",
+   "lua_output"
+  ],
+  [
+   "0x107040",
+   "0x108d9b",
+   "lua_output"
+  ],
+  [
+   "0x10d970",
+   "0x10f6cb",
+   "lua_output"
+  ],
+  [
+   "0x114280",
+   "0x115f8b",
+   "lua_output"
+  ],
+  [
+   "0x11ab60",
+   "0x11c86b",
+   "lua_output"
+  ],
+  [
+   "0x1214c0",
+   "0x12321b",
+   "lua_output"
+  ],
+  [
+   "0x127e20",
+   "0x129b2b",
+   "lua_output"
+  ],
+  [
+   "0x12e710",
+   "0x13046b",
+   "lua_output"
+  ],
+  [
+   "0x135070",
+   "0x136d7b",
+   "lua_output"
+  ],
+  [
+   "0x13b9d0",
+   "0x13d6db",
+   "lua_output"
+  ]
+ ],
+ "watermark.prediction_units": [
+  [
+   "0xff4a0",
+   "0x102904",
+   "watermark.prediction_units"
+  ],
+  [
+   "0x107040",
+   "0x10a716",
+   "watermark.prediction_units"
+  ],
+  [
+   "0x10d970",
+   "0x111046",
+   "watermark.prediction_units"
+  ],
+  [
+   "0x114280",
+   "0x117906",
+   "watermark.prediction_units"
+  ],
+  [
+   "0x11ab60",
+   "0x11e1e6",
+   "watermark.prediction_units"
+  ],
+  [
+   "0x1214c0",
+   "0x124b96",
+   "watermark.prediction_units"
+  ],
+  [
+   "0x127e20",
+   "0x12b4a6",
+   "watermark.prediction_units"
+  ],
+  [
+   "0x12e710",
+   "0x131de6",
+   "watermark.prediction_units"
+  ],
+  [
+   "0x135070",
+   "0x1386f6",
+   "watermark.prediction_units"
+  ],
+  [
+   "0x13b9d0",
+   "0x13f056",
+   "watermark.prediction_units"
+  ]
+ ],
+ "grenade_prediction.enabled": [
+  [
+   "0xff4a0",
+   "0x103668",
+   "grenade_prediction.enabled"
+  ],
+  [
+   "0x107040",
+   "0x10b576",
+   "grenade_prediction.enabled"
+  ],
+  [
+   "0x10d970",
+   "0x111ea6",
+   "grenade_prediction.enabled"
+  ],
+  [
+   "0x114280",
+   "0x118766",
+   "grenade_prediction.enabled"
+  ],
+  [
+   "0x11ab60",
+   "0x11f046",
+   "grenade_prediction.enabled"
+  ],
+  [
+   "0x1214c0",
+   "0x1259f6",
+   "grenade_prediction.enabled"
+  ],
+  [
+   "0x127e20",
+   "0x12c306",
+   "grenade_prediction.enabled"
+  ],
+  [
+   "0x12e710",
+   "0x132c46",
+   "grenade_prediction.enabled"
+  ],
+  [
+   "0x135070",
+   "0x139556",
+   "grenade_prediction.enabled"
+  ],
+  [
+   "0x13b9d0",
+   "0x13feb6",
+   "grenade_prediction.enabled"
+  ]
+ ],
+ "grenade_prediction.only_pin_pulled": [
+  [
+   "0xff4a0",
+   "0x103696",
+   "grenade_prediction.only_pin_pulled"
+  ],
+  [
+   "0x107040",
+   "0x10b5a4",
+   "grenade_prediction.only_pin_pulled"
+  ],
+  [
+   "0x10d970",
+   "0x111ed4",
+   "grenade_prediction.only_pin_pulled"
+  ],
+  [
+   "0x114280",
+   "0x118794",
+   "grenade_prediction.only_pin_pulled"
+  ],
+  [
+   "0x11ab60",
+   "0x11f074",
+   "grenade_prediction.only_pin_pulled"
+  ],
+  [
+   "0x1214c0",
+   "0x125a24",
+   "grenade_prediction.only_pin_pulled"
+  ],
+  [
+   "0x127e20",
+   "0x12c334",
+   "grenade_prediction.only_pin_pulled"
+  ],
+  [
+   "0x12e710",
+   "0x132c74",
+   "grenade_prediction.only_pin_pulled"
+  ],
+  [
+   "0x135070",
+   "0x139584",
+   "grenade_prediction.only_pin_pulled"
+  ],
+  [
+   "0x13b9d0",
+   "0x13fee4",
+   "grenade_prediction.only_pin_pulled"
+  ]
+ ],
+ "grenade_prediction.in_flight": [
+  [
+   "0xff4a0",
+   "0x1036c4",
+   "grenade_prediction.in_flight"
+  ],
+  [
+   "0x107040",
+   "0x10b5d2",
+   "grenade_prediction.in_flight"
+  ],
+  [
+   "0x10d970",
+   "0x111f02",
+   "grenade_prediction.in_flight"
+  ],
+  [
+   "0x114280",
+   "0x1187c2",
+   "grenade_prediction.in_flight"
+  ],
+  [
+   "0x11ab60",
+   "0x11f0a2",
+   "grenade_prediction.in_flight"
+  ],
+  [
+   "0x1214c0",
+   "0x125a52",
+   "grenade_prediction.in_flight"
+  ],
+  [
+   "0x127e20",
+   "0x12c362",
+   "grenade_prediction.in_flight"
+  ],
+  [
+   "0x12e710",
+   "0x132ca2",
+   "grenade_prediction.in_flight"
+  ],
+  [
+   "0x135070",
+   "0x1395b2",
+   "grenade_prediction.in_flight"
+  ],
+  [
+   "0x13b9d0",
+   "0x13ff12",
+   "grenade_prediction.in_flight"
+  ]
+ ],
+ "grenade_prediction.super_toss": [
+  [
+   "0xff4a0",
+   "0x1036f2",
+   "grenade_prediction.super_toss"
+  ],
+  [
+   "0x107040",
+   "0x10b600",
+   "grenade_prediction.super_toss"
+  ],
+  [
+   "0x10d970",
+   "0x111f30",
+   "grenade_prediction.super_toss"
+  ],
+  [
+   "0x114280",
+   "0x1187f0",
+   "grenade_prediction.super_toss"
+  ],
+  [
+   "0x11ab60",
+   "0x11f0d0",
+   "grenade_prediction.super_toss"
+  ],
+  [
+   "0x1214c0",
+   "0x125a80",
+   "grenade_prediction.super_toss"
+  ],
+  [
+   "0x127e20",
+   "0x12c390",
+   "grenade_prediction.super_toss"
+  ],
+  [
+   "0x12e710",
+   "0x132cd0",
+   "grenade_prediction.super_toss"
+  ],
+  [
+   "0x135070",
+   "0x1395e0",
+   "grenade_prediction.super_toss"
+  ],
+  [
+   "0x13b9d0",
+   "0x13ff40",
+   "grenade_prediction.super_toss"
+  ]
+ ],
+ "grenade_prediction.color": [
+  [
+   "0xff4a0",
+   "0x103720",
+   "grenade_prediction.color"
+  ],
+  [
+   "0x107040",
+   "0x10b62e",
+   "grenade_prediction.color"
+  ],
+  [
+   "0x10d970",
+   "0x111f5e",
+   "grenade_prediction.color"
+  ],
+  [
+   "0x114280",
+   "0x11881e",
+   "grenade_prediction.color"
+  ],
+  [
+   "0x11ab60",
+   "0x11f0fe",
+   "grenade_prediction.color"
+  ],
+  [
+   "0x1214c0",
+   "0x125aae",
+   "grenade_prediction.color"
+  ],
+  [
+   "0x127e20",
+   "0x12c3be",
+   "grenade_prediction.color"
+  ],
+  [
+   "0x12e710",
+   "0x132cfe",
+   "grenade_prediction.color"
+  ],
+  [
+   "0x135070",
+   "0x13960e",
+   "grenade_prediction.color"
+  ],
+  [
+   "0x13b9d0",
+   "0x13ff6e",
+   "grenade_prediction.color"
+  ]
+ ],
+ "grenade_prediction.thickness": [
+  [
+   "0xff4a0",
+   "0x103739",
+   "grenade_prediction.thickness"
+  ],
+  [
+   "0x107040",
+   "0x10b65c",
+   "grenade_prediction.thickness"
+  ],
+  [
+   "0x10d970",
+   "0x111f8c",
+   "grenade_prediction.thickness"
+  ],
+  [
+   "0x114280",
+   "0x11884c",
+   "grenade_prediction.thickness"
+  ],
+  [
+   "0x11ab60",
+   "0x11f12c",
+   "grenade_prediction.thickness"
+  ],
+  [
+   "0x1214c0",
+   "0x125adc",
+   "grenade_prediction.thickness"
+  ],
+  [
+   "0x127e20",
+   "0x12c3ec",
+   "grenade_prediction.thickness"
+  ],
+  [
+   "0x12e710",
+   "0x132d2c",
+   "grenade_prediction.thickness"
+  ],
+  [
+   "0x135070",
+   "0x13963c",
+   "grenade_prediction.thickness"
+  ],
+  [
+   "0x13b9d0",
+   "0x13ff9c",
+   "grenade_prediction.thickness"
+  ]
+ ],
+ "grenade_prediction.glow": [
+  [
+   "0xff4a0",
+   "0x103767",
+   "grenade_prediction.glow"
+  ],
+  [
+   "0x107040",
+   "0x10b68a",
+   "grenade_prediction.glow"
+  ],
+  [
+   "0x10d970",
+   "0x111fba",
+   "grenade_prediction.glow"
+  ],
+  [
+   "0x114280",
+   "0x11887a",
+   "grenade_prediction.glow"
+  ],
+  [
+   "0x11ab60",
+   "0x11f15a",
+   "grenade_prediction.glow"
+  ],
+  [
+   "0x1214c0",
+   "0x125b0a",
+   "grenade_prediction.glow"
+  ],
+  [
+   "0x127e20",
+   "0x12c41a",
+   "grenade_prediction.glow"
+  ],
+  [
+   "0x12e710",
+   "0x132d5a",
+   "grenade_prediction.glow"
+  ],
+  [
+   "0x135070",
+   "0x13966a",
+   "grenade_prediction.glow"
+  ],
+  [
+   "0x13b9d0",
+   "0x13ffca",
+   "grenade_prediction.glow"
+  ]
+ ],
+ "grenade_prediction.glow_strength": [
+  [
+   "0xff4a0",
+   "0x103795",
+   "grenade_prediction.glow_strength"
+  ],
+  [
+   "0x107040",
+   "0x10b6b8",
+   "grenade_prediction.glow_strength"
+  ],
+  [
+   "0x10d970",
+   "0x111fe8",
+   "grenade_prediction.glow_strength"
+  ],
+  [
+   "0x114280",
+   "0x1188a8",
+   "grenade_prediction.glow_strength"
+  ],
+  [
+   "0x11ab60",
+   "0x11f188",
+   "grenade_prediction.glow_strength"
+  ],
+  [
+   "0x1214c0",
+   "0x125b38",
+   "grenade_prediction.glow_strength"
+  ],
+  [
+   "0x127e20",
+   "0x12c448",
+   "grenade_prediction.glow_strength"
+  ],
+  [
+   "0x12e710",
+   "0x132d88",
+   "grenade_prediction.glow_strength"
+  ],
+  [
+   "0x135070",
+   "0x139698",
+   "grenade_prediction.glow_strength"
+  ],
+  [
+   "0x13b9d0",
+   "0x13fff8",
+   "grenade_prediction.glow_strength"
+  ]
+ ],
+ "triggerbot.team_check": [
+  [
+   "0xff4a0",
+   "0x105845",
+   "triggerbot.team_check"
+  ],
+  [
+   "0x107040",
+   "0x10d909",
+   "triggerbot.team_check"
+  ],
+  [
+   "0x10d970",
+   "0x11422b",
+   "triggerbot.team_check"
+  ],
+  [
+   "0x114280",
+   "0x11aaf9",
+   "triggerbot.team_check"
+  ],
+  [
+   "0x11ab60",
+   "0x121428",
+   "triggerbot.team_check"
+  ],
+  [
+   "0x1214c0",
+   "0x127da9",
+   "triggerbot.team_check"
+  ],
+  [
+   "0x127e20",
+   "0x12e6aa",
+   "triggerbot.team_check"
+  ],
+  [
+   "0x12e710",
+   "0x134ffb",
+   "triggerbot.team_check"
+  ],
+  [
+   "0x135070",
+   "0x13b945",
+   "triggerbot.team_check"
+  ],
+  [
+   "0x13b9d0",
+   "0x142249",
+   "triggerbot.team_check"
+  ]
+ ],
+ "aimbot.": [
+  [
+   "0x105af0",
+   "0x105b1e",
+   "aimbot."
+  ],
+  [
+   "0x106660",
+   "0x106690",
+   "aimbot."
+  ],
+  [
+   "0x1a8150",
+   "0x1a8176",
+   "aimbot."
+  ],
+  [
+   "0x1aa4c0",
+   "0x1aa4e8",
+   "aimbot."
+  ],
+  [
+   "0x1ad1b0",
+   "0x1ad1d6",
+   "aimbot."
+  ],
+  [
+   "0x1af630",
+   "0x1af656",
+   "aimbot."
+  ],
+  [
+   "0x1b1cf0",
+   "0x1b1d1a",
+   "aimbot."
+  ],
+  [
+   "0x1b46b0",
+   "0x1b46da",
+   "aimbot."
+  ],
+  [
+   "0x1b80e0",
+   "0x1b8117",
+   "aimbot."
+  ],
+  [
+   "0x1bbed0",
+   "0x1bbf07",
+   "aimbot."
+  ]
+ ],
+ "triggerbot.": [
+  [
+   "0x105af0",
+   "0x106050",
+   "triggerbot."
+  ],
+  [
+   "0x106660",
+   "0x106c4c",
+   "triggerbot."
+  ],
+  [
+   "0x1a8150",
+   "0x1a85e5",
+   "triggerbot."
+  ],
+  [
+   "0x1aa4c0",
+   "0x1aa8fc",
+   "triggerbot."
+  ],
+  [
+   "0x1ad1b0",
+   "0x1ad81f",
+   "triggerbot."
+  ],
+  [
+   "0x1af630",
+   "0x1afa37",
+   "triggerbot."
+  ],
+  [
+   "0x1b1cf0",
+   "0x1b2244",
+   "triggerbot."
+  ],
+  [
+   "0x1b46b0",
+   "0x1b4bf3",
+   "triggerbot."
+  ],
+  [
+   "0x1b80e0",
+   "0x1b88f2",
+   "triggerbot."
+  ],
+  [
+   "0x1bbed0",
+   "0x1bc684",
+   "triggerbot."
+  ]
+ ],
+ "cl_usercmd_max_per_movemsg": [
+  [
+   "0x1c82c0",
+   "0x1c8333",
+   "cl_usercmd_max_per_movemsg"
+  ],
+  [
+   "0x435150",
+   "0x43518e",
+   "cl_usercmd_max_per_movemsg"
+  ]
+ ],
+ "[hooks] prediction system | vtable copy ": [
+  [
+   "0x1cf6d0",
+   "0x1d050a",
+   "[hooks] prediction system | vtable copy of %d slots"
+  ]
+ ],
+ "[error] prediction system | vtable %p ha": [
+  [
+   "0x1cf6d0",
+   "0x1d0539",
+   "[error] prediction system | vtable %p has %d code slots, set-in-prediction hook "
+  ]
+ ],
+ "[error] hooks | prediction system (local": [
+  [
+   "0x1cf6d0",
+   "0x1d0545",
+   "[error] hooks | prediction system (local lag records) not hooked"
+  ]
+ ],
+ "prediction": [
+  [
+   "0x1dd40d",
+   "0x1dd6f3",
+   "prediction"
+  ]
+ ],
+ "planner: engine %s none (walls %d, used ": [
+  [
+   "0x1e3490",
+   "0x1e376f",
+   "planner: engine %s none (walls %d, used %d)"
+  ]
+ ],
+ "planner: game edgebug fallback flip=%d s": [
+  [
+   "0x1e3490",
+   "0x1e384b",
+   "planner: game edgebug fallback flip=%d steer=%d event=%d"
+  ],
+  [
+   "0x1e3490",
+   "0x1e3d91",
+   "planner: game edgebug fallback flip=%d steer=%d event=%d"
+  ]
+ ],
+ "planner: engine %s flip=%d steer=%d even": [
+  [
+   "0x1e3490",
+   "0x1e3cde",
+   "planner: engine %s flip=%d steer=%d event=%d used=%d | game event=%d score=%d ->"
+  ]
+ ],
+ " (recomputed in a later createmove call)": [
+  [
+   "0x1fb70a",
+   "0x1fb8a7",
+   " (recomputed in a later CreateMove call)"
+  ]
+ ],
+ "[%llu] local jitter %s | frame %.2f ms |": [
+  [
+   "0x20e742",
+   "0x20ec26",
+   "[%llu] local JITTER %s | frame %.2f ms | step %.2f expected %.2f speed %.0f | no"
+  ]
+ ],
+ "[%llu] models %s| frames %d max %.1f ms ": [
+  [
+   "0x20f0eb",
+   "0x20f1f2",
+   "[%llu] models %s| frames %d max %.1f ms | packets %d, max %d/frame, frames witho"
+  ]
+ ],
+ "prediction_warn": [
+  [
+   "0x26956b",
+   "0x26a010",
+   "prediction_warn"
+  ]
+ ],
+ "[nl_hooks] queue %p queue_ret %p entitie": [
+  [
+   "0x26956b",
+   "0x26a0f3",
+   "[nl_hooks] queue %p queue_ret %p entities %p tick +%x signon %p prediction %p wa"
+  ]
+ ],
+ "state | legit %d [%s] | group %d \"%s\" of": [
+  [
+   "0x29b410",
+   "0x29b9f3",
+   "state | legit %d [%s] | group %d \"%s\" of %d (weapon def %d) | aimbot %d [%s] act"
+  ]
+ ],
+ "aimbot disabled for group": [
+  [
+   "0x2a1513",
+   "0x2a1bf2",
+   "aimbot disabled for group"
+  ]
+ ],
+ "aimbot quick stop": [
+  [
+   "0x2a35c8",
+   "0x2a365c",
+   "aimbot quick stop"
+  ]
+ ],
+ "triggerbot": [
+  [
+   "0x2b8df0",
+   "0x2b8f56",
+   "triggerbot"
+  ],
+  [
+   "0x30695f",
+   "0x306f8f",
+   "triggerbot"
+  ]
+ ],
+ "displays server-precise terminal positio": [
+  [
+   "0x2fe7b0",
+   "0x2ff660",
+   "Displays server-precise terminal positions, including edge case Molotov placemen"
+  ]
+ ],
+ "prediction units": [
+  [
+   "0x3000e1",
+   "0x30054d",
+   "prediction units"
+  ]
+ ],
+ "master switch for rage aimbot functional": [
+  [
+   "0x305180",
+   "0x3052c7",
+   "Master switch for rage aimbot functionality"
+  ]
+ ],
+ "lets the aimbot work without changing ca": [
+  [
+   "0x305180",
+   "0x305350",
+   "Lets the aimbot work without changing camera angles"
+  ]
+ ],
+ "angle of view within which aimbot will a": [
+  [
+   "0x305180",
+   "0x3053de",
+   "Angle of view within which aimbot will aim according to \"Aim Speed\" option"
+  ]
+ ],
+ "maximum number of walls the aimbot can s": [
+  [
+   "0x305180",
+   "0x3054af",
+   "Maximum number of walls the aimbot can shoot through"
+  ]
+ ],
+ "adjusts aimbot processing for lower late": [
+  [
+   "0x305180",
+   "0x305533",
+   "Adjusts aimbot processing for lower latency"
+  ]
+ ],
+ "body parts that the aimbot will recogniz": [
+  [
+   "0x305180",
+   "0x305657",
+   "Body parts that the aimbot will recognize and aim for"
+  ],
+  [
+   "0x30695f",
+   "0x306b8a",
+   "Body parts that the aimbot will recognize and aim for."
+  ]
+ ],
+ "when enabled, crouches until the aimbot ": [
+  [
+   "0x305180",
+   "0x305a2a",
+   "When enabled, crouches until the aimbot can shoot from an uncrouched eye positio"
+  ]
+ ],
+ "legit_aimbot": [
+  [
+   "0x30695f",
+   "0x306a00",
+   "legit_aimbot"
+  ]
+ ],
+ "aimbot activation mode": [
+  [
+   "0x30695f",
+   "0x306a7f",
+   "Aimbot activation mode"
+  ]
+ ],
+ "field of view within which the aimbot wi": [
+  [
+   "0x30695f",
+   "0x306c28",
+   "Field of view within which the aimbot will react."
+  ]
+ ],
+ "time that must pass after killing/losing": [
+  [
+   "0x30695f",
+   "0x306db0",
+   "Time that must pass after killing/losing a target before the aimbot switches to "
+  ]
+ ],
+ "when enabled, the triggerbot shoots only": [
+  [
+   "0x307150",
+   "0x307150",
+   "When enabled, the triggerbot shoots only at the center of hitbox."
+  ]
+ ],
+ "controls weapon recoil independently of ": [
+  [
+   "0x3076f3",
+   "0x30776b",
+   "Controls weapon recoil independently of the aimbot"
+  ]
+ ],
+ "planner": [
+  [
+   "0x307870",
+   "0x3083d3",
+   "planner"
+  ]
+ ],
+ "missed aimbot shot": [
+  [
+   "0x3093f0",
+   "0x30953d",
+   "Missed Aimbot Shot"
+  ],
+  [
+   "0x30a641",
+   "0x30a8d3",
+   "missed aimbot shot"
+  ]
+ ],
+ "this feature cannot be used with legit t": [
+  [
+   "0x30a06f",
+   "0x30a0a4",
+   "This feature cannot be used with Legit Triggerbot or Automatic Weapons."
+  ],
+  [
+   "0x30af82",
+   "0x30b4e9",
+   "This feature cannot be used with Legit Triggerbot or Automatic Weapons."
+  ]
+ ],
+ "lua_svg/": [
+  [
+   "0x30bcf0",
+   "0x30bf9c",
+   "lua_svg/"
+  ]
+ ],
+ "lua_icon_grid": [
+  [
+   "0x30dca0",
+   "0x30eded",
+   "lua_icon_grid"
+  ]
+ ],
+ "##wl_lua_%s_%d": [
+  [
+   "0x3211b0",
+   "0x3214cf",
+   "##wl_lua_%s_%d"
+  ]
+ ],
+ "https://neverwin.one/tickets/": [
+  [
+   "0x323780",
+   "0x324166",
+   "https://neverwin.one/tickets/"
+  ]
+ ],
+ "https://neverwin.one/help/terms/": [
+  [
+   "0x323780",
+   "0x324258",
+   "https://neverwin.one/help/terms/"
+  ]
+ ],
+ "neverwin.one ": [
+  [
+   "0x323780",
+   "0x32427d",
+   "neverwin.one "
+  ]
+ ],
+ "https://lua.neverwin.one": [
+  [
+   "0x32dc00",
+   "0x32de05",
+   "https://lua.neverwin.one"
+  ]
+ ],
+ "[chams] %s was %u (left by an older buil": [
+  [
+   "0x3c1950",
+   "0x3c19b6",
+   "[chams] %s was %u (left by an older build), set back to the game default %u"
+  ],
+  [
+   "0x3c1950",
+   "0x3c1a29",
+   "[chams] %s was %u (left by an older build), set back to the game default %u"
+  ]
+ ],
+ "[chams]": [
+  [
+   "0x3c2230",
+   "0x3c235e",
+   "[chams]"
+  ]
+ ],
+ "[error] chams |": [
+  [
+   "0x3c2230",
+   "0x3c236a",
+   "[error] chams |"
+  ]
+ ],
+ "%s glow manager | m_glow 0x%x color 0x%x": [
+  [
+   "0x3c3c65",
+   "0x3c3f38",
+   "%s glow manager | m_Glow 0x%x color 0x%x glowing 0x%x type 0x%x time 0x%x start "
+  ]
+ ],
+ "%s glow manager | cscenesystem slot 25 (": [
+  [
+   "0x3c51d6",
+   "0x3c53b8",
+   "%s glow manager | CSceneSystem slot 25 (FinishRenderingViews) %p %s | PreOutput "
+  ]
+ ],
+ "get_usercmd": [
+  [
+   "0x3cba6f",
+   "0x3cc16f",
+   "get_usercmd"
+  ],
+  [
+   "0x3cba6f",
+   "0x3cc226",
+   "get_usercmd"
+  ],
+  [
+   "0x3cba6f",
+   "0x3cc252",
+   "get_usercmd"
+  ]
+ ],
+ "get_usercmd_base": [
+  [
+   "0x3cba6f",
+   "0x3cc282",
+   "get_usercmd_base"
+  ],
+  [
+   "0x3cba6f",
+   "0x3cc348",
+   "get_usercmd_base"
+  ],
+  [
+   "0x3cba6f",
+   "0x3cc376",
+   "get_usercmd_base"
+  ],
+  [
+   "0x3cba6f",
+   "0x3cc39a",
+   "get_usercmd_base"
+  ],
+  [
+   "0x3cba6f",
+   "0x3cc3ef",
+   "get_usercmd_base"
+  ]
+ ],
+ "prediction_state": [
+  [
+   "0x3cba6f",
+   "0x3cc769",
+   "prediction_state"
+  ],
+  [
+   "0x3cba6f",
+   "0x3cc795",
+   "prediction_state"
+  ],
+  [
+   "0x3cba6f",
+   "0x3cc7d8",
+   "prediction_state"
+  ]
+ ],
+ "prediction_seed": [
+  [
+   "0x3cba6f",
+   "0x3cc803",
+   "prediction_seed"
+  ],
+  [
+   "0x3cba6f",
+   "0x3cc82f",
+   "prediction_seed"
+  ],
+  [
+   "0x3cba6f",
+   "0x3cc872",
+   "prediction_seed"
+  ]
+ ],
+ "prediction_player": [
+  [
+   "0x3cba6f",
+   "0x3cc937",
+   "prediction_player"
+  ],
+  [
+   "0x3cba6f",
+   "0x3cc963",
+   "prediction_player"
+  ],
+  [
+   "0x3cba6f",
+   "0x3cc9a6",
+   "prediction_player"
+  ]
+ ],
+ "prediction_set_state": [
+  [
+   "0x3cba6f",
+   "0x3cc9dd",
+   "prediction_set_state"
+  ],
+  [
+   "0x3cba6f",
+   "0x3cca94",
+   "prediction_set_state"
+  ],
+  [
+   "0x3cba6f",
+   "0x3ccac0",
+   "prediction_set_state"
+  ]
+ ],
+ "prediction_set_pawn": [
+  [
+   "0x3cba6f",
+   "0x3ccaf0",
+   "prediction_set_pawn"
+  ],
+  [
+   "0x3cba6f",
+   "0x3ccba7",
+   "prediction_set_pawn"
+  ],
+  [
+   "0x3cba6f",
+   "0x3ccbd3",
+   "prediction_set_pawn"
+  ]
+ ],
+ "prediction_reset_pawn": [
+  [
+   "0x3cba6f",
+   "0x3ccc03",
+   "prediction_reset_pawn"
+  ],
+  [
+   "0x3cba6f",
+   "0x3cccba",
+   "prediction_reset_pawn"
+  ],
+  [
+   "0x3cba6f",
+   "0x3ccce6",
+   "prediction_reset_pawn"
+  ]
+ ],
+ "prediction_setup_move": [
+  [
+   "0x3cba6f",
+   "0x3ccd0a",
+   "prediction_setup_move"
+  ],
+  [
+   "0x3cba6f",
+   "0x3ccd58",
+   "prediction_setup_move"
+  ],
+  [
+   "0x3cba6f",
+   "0x3ccd82",
+   "prediction_setup_move"
+  ],
+  [
+   "0x3cba6f",
+   "0x3ccda2",
+   "prediction_setup_move"
+  ]
+ ],
+ "prediction_process_movement": [
+  [
+   "0x3cba6f",
+   "0x3ccdcd",
+   "prediction_process_movement"
+  ],
+  [
+   "0x3cba6f",
+   "0x3cce1b",
+   "prediction_process_movement"
+  ],
+  [
+   "0x3cba6f",
+   "0x3cce45",
+   "prediction_process_movement"
+  ],
+  [
+   "0x3cba6f",
+   "0x3cce65",
+   "prediction_process_movement"
+  ]
+ ],
+ "prediction_finish_move": [
+  [
+   "0x3cba6f",
+   "0x3cce90",
+   "prediction_finish_move"
+  ],
+  [
+   "0x3cba6f",
+   "0x3ccedd",
+   "prediction_finish_move"
+  ],
+  [
+   "0x3cba6f",
+   "0x3ccf07",
+   "prediction_finish_move"
+  ],
+  [
+   "0x3cba6f",
+   "0x3ccf27",
+   "prediction_finish_move"
+  ]
+ ],
+ "prediction_end": [
+  [
+   "0x3cba6f",
+   "0x3d18e1",
+   "prediction_end"
+  ],
+  [
+   "0x3cba6f",
+   "0x3d199c",
+   "prediction_end"
+  ],
+  [
+   "0x3cba6f",
+   "0x3d19ed",
+   "prediction_end"
+  ]
+ ],
+ "dp-budget convar missing: sv_late_comman": [
+  [
+   "0x435050",
+   "0x4350be",
+   "dp-budget convar missing: sv_late_commands_allowed=%d cl_usercmd_max_per_movemsg"
+  ]
+ ],
+ "dp-budget sv_late_commands_allowed=%d cl": [
+  [
+   "0x435050",
+   "0x4350ec",
+   "dp-budget sv_late_commands_allowed=%d cl_usercmd_max_per_movemsg=%d cq_max_starv"
+  ]
+ ],
+ "prediction error": [
+  [
+   "0x47b4a0",
+   "0x47b517",
+   "prediction error"
+  ],
+  [
+   "0x47c962",
+   "0x47c9db",
+   "prediction error"
+  ]
+ ],
+ "shootpos misprediction": [
+  [
+   "0x47b4a0",
+   "0x47b52c",
+   "shootpos misprediction"
+  ],
+  [
+   "0x47c962",
+   "0x47c9f0",
+   "shootpos misprediction"
+  ]
+ ],
+ "hitchance misprediction": [
+  [
+   "0x47b4a0",
+   "0x47b554",
+   "hitchance misprediction"
+  ],
+  [
+   "0x47c962",
+   "0x47ca18",
+   "hitchance misprediction"
+  ]
+ ],
+ "lagcomp misprediction": [
+  [
+   "0x47b4a0",
+   "0x47b56f",
+   "lagcomp misprediction"
+  ],
+  [
+   "0x47c962",
+   "0x47ca33",
+   "lagcomp misprediction"
+  ]
+ ]
+}
