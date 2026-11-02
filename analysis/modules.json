@@ -1,0 +1,898 @@
+{
+ "image_base": "0x180000000",
+ "tls_correction": {
+  "address_of_index": "0x180c9f468 (.fptable \u2014 zero-filled)",
+  "callbacks_array_va": "0x18056c5e8",
+  "callbacks": [],
+  "note": "TLS callbacks array EMPTY; no TLS code. Earlier CallbacksVA was field-offset bug."
+ },
+ "dllmain_attach_handler_iat": [
+  {
+   "insn_rva": "0x4edc8a",
+   "api": "KERNEL32!GetSystemTimeAsFileTime"
+  },
+  {
+   "insn_rva": "0x4edc9a",
+   "api": "KERNEL32!GetCurrentThreadId"
+  },
+  {
+   "insn_rva": "0x4edca7",
+   "api": "KERNEL32!GetCurrentProcessId"
+  },
+  {
+   "insn_rva": "0x4edcb9",
+   "api": "KERNEL32!QueryPerformanceCounter"
+  },
+  {
+   "insn_rva": "0x4ee097",
+   "api": "KERNEL32!RtlLookupFunctionEntry"
+  }
+ ],
+ "call_graph_bfs": {
+  "root": "0x4ed740",
+  "reachable_count": 50,
+  "sample_first50": [
+   "0x4ed740",
+   "0x4edc50",
+   "0x4ed880",
+   "0x4ed530",
+   "0x3ca1e0",
+   "0x4ed6a0",
+   "0x4ecc30",
+   "0x4ecc00",
+   "0x4ecde0",
+   "0x4ecca0",
+   "0x4ecce0",
+   "0x4ecaf0",
+   "0x4ece10",
+   "0x4eddb0",
+   "0x4ef710",
+   "0x524cfc",
+   "0x4ef6f0",
+   "0x524ce8",
+   "0x524d44",
+   "0x4ef720",
+   "0x524d0c",
+   "0x4ef7e0",
+   "0x529810",
+   "0x4ef920",
+   "0x5298c0",
+   "0x5299f0",
+   "0x4efad0",
+   "0x4f3100",
+   "0x5295f8",
+   "0x5277b0",
+   "0x5296f0",
+   "0x529420",
+   "0x5294a8",
+   "0x51be70",
+   "0x51bfb0",
+   "0x52a0c0",
+   "0x529508",
+   "0x5297a8",
+   "0x523cb0",
+   "0x5293e0",
+   "0x529460",
+   "0x536420",
+   "0x536220",
+   "0x523d00",
+   "0x540130",
+   "0x535008",
+   "0x535630",
+   "0x5363c0",
+   "0x535cf8",
+   "0x535984"
+  ]
+ },
+ "zones": {
+  "Hook-Engine": [
+   {
+    "rva": "0x4bc250",
+    "end_rva": "0x4bc375",
+    "size": 293,
+    "score": 4,
+    "votes": {
+     "Hook-Engine": 4
+    }
+   },
+   {
+    "rva": "0x428b70",
+    "end_rva": "0x428c8e",
+    "size": 286,
+    "score": 3,
+    "votes": {
+     "Hook-Engine": 3
+    }
+   },
+   {
+    "rva": "0x20330",
+    "end_rva": "0x20395",
+    "size": 101,
+    "score": 2,
+    "votes": {
+     "Hook-Engine": 2
+    }
+   },
+   {
+    "rva": "0x20c10",
+    "end_rva": "0x211cf",
+    "size": 1471,
+    "score": 2,
+    "votes": {
+     "Hook-Engine": 2
+    }
+   },
+   {
+    "rva": "0x26956b",
+    "end_rva": "0x26a157",
+    "size": 3052,
+    "score": 2,
+    "votes": {
+     "Hook-Engine": 2
+    }
+   },
+   {
+    "rva": "0x3c83a0",
+    "end_rva": "0x3c8639",
+    "size": 665,
+    "score": 2,
+    "votes": {
+     "Hook-Engine": 2
+    }
+   },
+   {
+    "rva": "0x4285b3",
+    "end_rva": "0x428770",
+    "size": 445,
+    "score": 2,
+    "votes": {
+     "Hook-Engine": 2
+    }
+   },
+   {
+    "rva": "0x428ace",
+    "end_rva": "0x428b41",
+    "size": 115,
+    "score": 2,
+    "votes": {
+     "Hook-Engine": 2
+    }
+   },
+   {
+    "rva": "0x428d76",
+    "end_rva": "0x428dd2",
+    "size": 92,
+    "score": 2,
+    "votes": {
+     "Hook-Engine": 2
+    }
+   },
+   {
+    "rva": "0x429216",
+    "end_rva": "0x429275",
+    "size": 95,
+    "score": 2,
+    "votes": {
+     "Hook-Engine": 2
+    }
+   },
+   {
+    "rva": "0x4293b0",
+    "end_rva": "0x429503",
+    "size": 339,
+    "score": 2,
+    "votes": {
+     "Hook-Engine": 2
+    }
+   },
+   {
+    "rva": "0x4b49f0",
+    "end_rva": "0x4b4be9",
+    "size": 505,
+    "score": 2,
+    "votes": {
+     "Hook-Engine": 2
+    }
+   },
+   {
+    "rva": "0x4b6d00",
+    "end_rva": "0x4b6f46",
+    "size": 582,
+    "score": 2,
+    "votes": {
+     "Hook-Engine": 2
+    }
+   },
+   {
+    "rva": "0x4bc400",
+    "end_rva": "0x4bc5f3",
+    "size": 499,
+    "score": 2,
+    "votes": {
+     "Hook-Engine": 2
+    }
+   },
+   {
+    "rva": "0x52c3d0",
+    "end_rva": "0x52c582",
+    "size": 434,
+    "score": 2,
+    "votes": {
+     "Hook-Engine": 2
+    }
+   },
+   {
+    "rva": "0x1c9e00",
+    "end_rva": "0x1ca069",
+    "size": 617,
+    "score": 1,
+    "votes": {
+     "Hook-Engine": 1
+    }
+   },
+   {
+    "rva": "0x1cf6d0",
+    "end_rva": "0x1d0606",
+    "size": 3894,
+    "score": 1,
+    "votes": {
+     "Hook-Engine": 1
+    }
+   },
+   {
+    "rva": "0x428790",
+    "end_rva": "0x4287d1",
+    "size": 65,
+    "score": 1,
+    "votes": {
+     "Hook-Engine": 1
+    }
+   },
+   {
+    "rva": "0x4287d1",
+    "end_rva": "0x4288c3",
+    "size": 242,
+    "score": 1,
+    "votes": {
+     "Hook-Engine": 1
+    }
+   },
+   {
+    "rva": "0x428950",
+    "end_rva": "0x428aa9",
+    "size": 345,
+    "score": 1,
+    "votes": {
+     "Hook-Engine": 1
+    }
+   },
+   {
+    "rva": "0x4b6f50",
+    "end_rva": "0x4b6fa6",
+    "size": 86,
+    "score": 1,
+    "votes": {
+     "Hook-Engine": 1
+    }
+   },
+   {
+    "rva": "0x4bc080",
+    "end_rva": "0x4bc0d3",
+    "size": 83,
+    "score": 1,
+    "votes": {
+     "Hook-Engine": 1
+    }
+   },
+   {
+    "rva": "0x4bc0e0",
+    "end_rva": "0x4bc135",
+    "size": 85,
+    "score": 1,
+    "votes": {
+     "Hook-Engine": 1
+    }
+   },
+   {
+    "rva": "0x4bc1a0",
+    "end_rva": "0x4bc24a",
+    "size": 170,
+    "score": 1,
+    "votes": {
+     "Hook-Engine": 1
+    }
+   },
+   {
+    "rva": "0x4bc380",
+    "end_rva": "0x4bc3fa",
+    "size": 122,
+    "score": 1,
+    "votes": {
+     "Hook-Engine": 1
+    }
+   },
+   {
+    "rva": "0x52cf40",
+    "end_rva": "0x52cf70",
+    "size": 48,
+    "score": 1,
+    "votes": {
+     "Hook-Engine": 1
+    }
+   }
+  ],
+  "Network/License": [
+   {
+    "rva": "0x95270",
+    "end_rva": "0x96354",
+    "size": 4324,
+    "score": 17,
+    "votes": {
+     "Network/License": 17
+    }
+   },
+   {
+    "rva": "0xd7d70",
+    "end_rva": "0xd7fd2",
+    "size": 610,
+    "score": 1,
+    "votes": {
+     "Network/License": 1
+    }
+   },
+   {
+    "rva": "0x307870",
+    "end_rva": "0x308ff7",
+    "size": 6023,
+    "score": 1,
+    "votes": {
+     "Network/License": 1
+    }
+   },
+   {
+    "rva": "0x323780",
+    "end_rva": "0x3243c0",
+    "size": 3136,
+    "score": 1,
+    "votes": {
+     "Network/License": 1
+    }
+   }
+  ],
+  "Renderer": [
+   {
+    "rva": "0x1d2ee0",
+    "end_rva": "0x1d335e",
+    "size": 1150,
+    "score": 22,
+    "votes": {
+     "Renderer": 22
+    }
+   },
+   {
+    "rva": "0x1d3429",
+    "end_rva": "0x1d34ef",
+    "size": 198,
+    "score": 3,
+    "votes": {
+     "Renderer": 3
+    }
+   },
+   {
+    "rva": "0x36e5f0",
+    "end_rva": "0x36e8e4",
+    "size": 756,
+    "score": 3,
+    "votes": {
+     "Renderer": 3
+    }
+   },
+   {
+    "rva": "0x3ebc00",
+    "end_rva": "0x3ebde5",
+    "size": 485,
+    "score": 3,
+    "votes": {
+     "Renderer": 3
+    }
+   },
+   {
+    "rva": "0x4173e0",
+    "end_rva": "0x4174e6",
+    "size": 262,
+    "score": 3,
+    "votes": {
+     "Renderer": 3
+    }
+   },
+   {
+    "rva": "0x426190",
+    "end_rva": "0x4265cd",
+    "size": 1085,
+    "score": 2,
+    "votes": {
+     "Renderer": 2
+    }
+   },
+   {
+    "rva": "0x36e580",
+    "end_rva": "0x36e5e1",
+    "size": 97,
+    "score": 2,
+    "votes": {
+     "Renderer": 2
+    }
+   },
+   {
+    "rva": "0x377de0",
+    "end_rva": "0x3780e2",
+    "size": 770,
+    "score": 2,
+    "votes": {
+     "Renderer": 2
+    }
+   },
+   {
+    "rva": "0x3d6b10",
+    "end_rva": "0x3d6d30",
+    "size": 544,
+    "score": 2,
+    "votes": {
+     "Renderer": 2
+    }
+   },
+   {
+    "rva": "0x1cf1b3",
+    "end_rva": "0x1cf65e",
+    "size": 1195,
+    "score": 1,
+    "votes": {
+     "Renderer": 1
+    }
+   },
+   {
+    "rva": "0x1c440",
+    "end_rva": "0x1cb4d",
+    "size": 1805,
+    "score": 1,
+    "votes": {
+     "Renderer": 1
+    }
+   },
+   {
+    "rva": "0x1d247d",
+    "end_rva": "0x1d2517",
+    "size": 154,
+    "score": 1,
+    "votes": {
+     "Renderer": 1
+    }
+   },
+   {
+    "rva": "0x1d25f0",
+    "end_rva": "0x1d2713",
+    "size": 291,
+    "score": 1,
+    "votes": {
+     "Renderer": 1
+    }
+   },
+   {
+    "rva": "0x1d335e",
+    "end_rva": "0x1d3429",
+    "size": 203,
+    "score": 1,
+    "votes": {
+     "Renderer": 1
+    }
+   },
+   {
+    "rva": "0x1d34f0",
+    "end_rva": "0x1d4092",
+    "size": 2978,
+    "score": 1,
+    "votes": {
+     "Renderer": 1
+    }
+   },
+   {
+    "rva": "0x27e6f0",
+    "end_rva": "0x27e8b8",
+    "size": 456,
+    "score": 1,
+    "votes": {
+     "Renderer": 1
+    }
+   },
+   {
+    "rva": "0x2cfd60",
+    "end_rva": "0x2d021c",
+    "size": 1212,
+    "score": 1,
+    "votes": {
+     "Renderer": 1
+    }
+   },
+   {
+    "rva": "0x363b60",
+    "end_rva": "0x363e70",
+    "size": 784,
+    "score": 1,
+    "votes": {
+     "Renderer": 1
+    }
+   },
+   {
+    "rva": "0x3c93f0",
+    "end_rva": "0x3ca1d8",
+    "size": 3560,
+    "score": 1,
+    "votes": {
+     "Renderer": 1
+    }
+   },
+   {
+    "rva": "0x3de890",
+    "end_rva": "0x3e011c",
+    "size": 6284,
+    "score": 1,
+    "votes": {
+     "Renderer": 1
+    }
+   },
+   {
+    "rva": "0x3e0af0",
+    "end_rva": "0x3e0b33",
+    "size": 67,
+    "score": 1,
+    "votes": {
+     "Renderer": 1
+    }
+   },
+   {
+    "rva": "0x3ec080",
+    "end_rva": "0x3ec2ec",
+    "size": 620,
+    "score": 1,
+    "votes": {
+     "Renderer": 1
+    }
+   },
+   {
+    "rva": "0x3f52bb",
+    "end_rva": "0x3f52dd",
+    "size": 34,
+    "score": 1,
+    "votes": {
+     "Renderer": 1
+    }
+   },
+   {
+    "rva": "0x42677e",
+    "end_rva": "0x4268bb",
+    "size": 317,
+    "score": 1,
+    "votes": {
+     "Renderer": 1
+    }
+   }
+  ],
+  "Config/UI": [
+   {
+    "rva": "0x35ef50",
+    "end_rva": "0x35fb2a",
+    "size": 3034,
+    "score": 4,
+    "votes": {
+     "Config/UI": 4
+    }
+   },
+   {
+    "rva": "0x4e5650",
+    "end_rva": "0x4e56cf",
+    "size": 127,
+    "score": 1,
+    "votes": {
+     "Config/UI": 1
+    }
+   },
+   {
+    "rva": "0x4e5710",
+    "end_rva": "0x4e5791",
+    "size": 129,
+    "score": 1,
+    "votes": {
+     "Config/UI": 1
+    }
+   },
+   {
+    "rva": "0x4e5830",
+    "end_rva": "0x4e5b63",
+    "size": 819,
+    "score": 1,
+    "votes": {
+     "Config/UI": 1
+    }
+   },
+   {
+    "rva": "0x539010",
+    "end_rva": "0x53936e",
+    "size": 862,
+    "score": 1,
+    "votes": {
+     "Config/UI": 1
+    }
+   },
+   {
+    "rva": "0x5dea0",
+    "end_rva": "0x5e0d0",
+    "size": 560,
+    "score": 1,
+    "votes": {
+     "Config/UI": 1
+    }
+   },
+   {
+    "rva": "0x5e870",
+    "end_rva": "0x5eb88",
+    "size": 792,
+    "score": 1,
+    "votes": {
+     "Config/UI": 1
+    }
+   },
+   {
+    "rva": "0x5f2a0",
+    "end_rva": "0x5f77f",
+    "size": 1247,
+    "score": 1,
+    "votes": {
+     "Config/UI": 1
+    }
+   },
+   {
+    "rva": "0x5f780",
+    "end_rva": "0x5fe35",
+    "size": 1717,
+    "score": 1,
+    "votes": {
+     "Config/UI": 1
+    }
+   },
+   {
+    "rva": "0x62c10",
+    "end_rva": "0x62e60",
+    "size": 592,
+    "score": 1,
+    "votes": {
+     "Config/UI": 1
+    }
+   },
+   {
+    "rva": "0x6e7b0",
+    "end_rva": "0x6ec63",
+    "size": 1203,
+    "score": 1,
+    "votes": {
+     "Config/UI": 1
+    }
+   },
+   {
+    "rva": "0x7ac30",
+    "end_rva": "0x7aea7",
+    "size": 631,
+    "score": 1,
+    "votes": {
+     "Config/UI": 1
+    }
+   },
+   {
+    "rva": "0x7aeb0",
+    "end_rva": "0x7b27e",
+    "size": 974,
+    "score": 1,
+    "votes": {
+     "Config/UI": 1
+    }
+   },
+   {
+    "rva": "0x7efd0",
+    "end_rva": "0x7f8b1",
+    "size": 2273,
+    "score": 1,
+    "votes": {
+     "Config/UI": 1
+    }
+   },
+   {
+    "rva": "0x98430",
+    "end_rva": "0x98b1a",
+    "size": 1770,
+    "score": 1,
+    "votes": {
+     "Config/UI": 1
+    }
+   },
+   {
+    "rva": "0x99f60",
+    "end_rva": "0x9ace9",
+    "size": 3465,
+    "score": 1,
+    "votes": {
+     "Config/UI": 1
+    }
+   },
+   {
+    "rva": "0x263950",
+    "end_rva": "0x263c4d",
+    "size": 765,
+    "score": 1,
+    "votes": {
+     "Config/UI": 1
+    }
+   },
+   {
+    "rva": "0x3364a0",
+    "end_rva": "0x336aa9",
+    "size": 1545,
+    "score": 1,
+    "votes": {
+     "Config/UI": 1
+    }
+   },
+   {
+    "rva": "0x35c770",
+    "end_rva": "0x35c83a",
+    "size": 202,
+    "score": 1,
+    "votes": {
+     "Config/UI": 1
+    }
+   },
+   {
+    "rva": "0x35dd90",
+    "end_rva": "0x35e46e",
+    "size": 1758,
+    "score": 1,
+    "votes": {
+     "Config/UI": 1
+    }
+   }
+  ],
+  "Lua-Runtime": [
+   {
+    "rva": "0x9ddb0",
+    "end_rva": "0x9e474",
+    "size": 1732,
+    "score": 1,
+    "votes": {
+     "Lua-Runtime": 1
+    }
+   },
+   {
+    "rva": "0x9e4c0",
+    "end_rva": "0x9ec6e",
+    "size": 1966,
+    "score": 1,
+    "votes": {
+     "Lua-Runtime": 1
+    }
+   },
+   {
+    "rva": "0xff4a0",
+    "end_rva": "0x10589e",
+    "size": 25598,
+    "score": 1,
+    "votes": {
+     "Lua-Runtime": 1
+    }
+   },
+   {
+    "rva": "0x107040",
+    "end_rva": "0x10d962",
+    "size": 26914,
+    "score": 1,
+    "votes": {
+     "Lua-Runtime": 1
+    }
+   },
+   {
+    "rva": "0x10d970",
+    "end_rva": "0x11427d",
+    "size": 26893,
+    "score": 1,
+    "votes": {
+     "Lua-Runtime": 1
+    }
+   },
+   {
+    "rva": "0x114280",
+    "end_rva": "0x11ab5d",
+    "size": 26845,
+    "score": 1,
+    "votes": {
+     "Lua-Runtime": 1
+    }
+   },
+   {
+    "rva": "0x11ab60",
+    "end_rva": "0x1214ba",
+    "size": 26970,
+    "score": 1,
+    "votes": {
+     "Lua-Runtime": 1
+    }
+   },
+   {
+    "rva": "0x1214c0",
+    "end_rva": "0x127e12",
+    "size": 26962,
+    "score": 1,
+    "votes": {
+     "Lua-Runtime": 1
+    }
+   },
+   {
+    "rva": "0x127e20",
+    "end_rva": "0x12e70e",
+    "size": 26862,
+    "score": 1,
+    "votes": {
+     "Lua-Runtime": 1
+    }
+   },
+   {
+    "rva": "0x12e710",
+    "end_rva": "0x135065",
+    "size": 26965,
+    "score": 1,
+    "votes": {
+     "Lua-Runtime": 1
+    }
+   },
+   {
+    "rva": "0x135070",
+    "end_rva": "0x13b9c4",
+    "size": 26964,
+    "score": 1,
+    "votes": {
+     "Lua-Runtime": 1
+    }
+   },
+   {
+    "rva": "0x13b9d0",
+    "end_rva": "0x1422ad",
+    "size": 26845,
+    "score": 1,
+    "votes": {
+     "Lua-Runtime": 1
+    }
+   },
+   {
+    "rva": "0x30bcf0",
+    "end_rva": "0x30c2ee",
+    "size": 1534,
+    "score": 1,
+    "votes": {
+     "Lua-Runtime": 1
+    }
+   },
+   {
+    "rva": "0x486c0f",
+    "end_rva": "0x486cee",
+    "size": 223,
+    "score": 1,
+    "votes": {
+     "Lua-Runtime": 1
+    }
+   }
+  ]
+ },
+ "zone_function_counts": {
+  "Hook-Engine": 26,
+  "Network/License": 4,
+  "Renderer": 24,
+  "Config/UI": 20,
+  "Lua-Runtime": 14
+ }
+}

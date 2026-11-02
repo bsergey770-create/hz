@@ -1,0 +1,54 @@
+{
+ "hook_api_sites": {
+  "KERNEL32.dll!VirtualProtect": 18,
+  "KERNEL32.dll!VirtualAlloc": 12,
+  "KERNEL32.dll!GetThreadContext": 1,
+  "KERNEL32.dll!SetThreadContext": 1,
+  "KERNEL32.dll!CreateToolhelp32Snapshot": 1,
+  "KERNEL32.dll!OpenThread": 4,
+  "KERNEL32.dll!SuspendThread": 1,
+  "KERNEL32.dll!ResumeThread": 3
+ },
+ "top_funcs": [
+  {
+   "rva": "0x4bc250",
+   "sites": 4
+  },
+  {
+   "rva": "0x20330",
+   "sites": 2
+  },
+  {
+   "rva": "0x20c10",
+   "sites": 2
+  },
+  {
+   "rva": "0x4285b3",
+   "sites": 2
+  },
+  {
+   "rva": "0x428ace",
+   "sites": 2
+  },
+  {
+   "rva": "0x428b70",
+   "sites": 2
+  },
+  {
+   "rva": "0x428d76",
+   "sites": 2
+  },
+  {
+   "rva": "0x429216",
+   "sites": 2
+  },
+  {
+   "rva": "0x4293b0",
+   "sites": 2
+  },
+  {
+   "rva": "0x4b49f0",
+   "sites": 2
+  }
+ ]
+}
