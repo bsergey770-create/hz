@@ -1,0 +1,32 @@
+{
+ "image_base": "0x180000000",
+ "tls_note": "IMAGE_TLS_DIRECTORY64 parsed correctly: AddressOfIndex=0x180c9f468 (.fptable, zero-filled), CallbacksArrayVA=0x18056c5e8 -> callbacks array EMPTY (no TLS callbacks). Previous \"CallbacksVA=0x180c9f468\" was a field-offset bug.",
+ "attach_handler_indirect_calls": [
+  {
+   "insn_rva": "0x4edc8a",
+   "iat_slot_va": "0x18056b2a0",
+   "api": "KERNEL32.dll!GetSystemTimeAsFileTime"
+  },
+  {
+   "insn_rva": "0x4edc9a",
+   "iat_slot_va": "0x18056b168",
+   "api": "KERNEL32.dll!GetCurrentThreadId"
+  },
+  {
+   "insn_rva": "0x4edca7",
+   "iat_slot_va": "0x18056b3c0",
+   "api": "KERNEL32.dll!GetCurrentProcessId"
+  },
+  {
+   "insn_rva": "0x4edcb9",
+   "iat_slot_va": "0x18056b1c0",
+   "api": "KERNEL32.dll!QueryPerformanceCounter"
+  },
+  {
+   "insn_rva": "0x4ee097",
+   "iat_slot_va": "0x18056b328",
+   "api": "KERNEL32.dll!RtlLookupFunctionEntry"
+  }
+ ],
+ "dllmain_body_indirect_calls": []
+}

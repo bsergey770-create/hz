@@ -1,0 +1,9 @@
+{
+ "tls": {
+  "start_of_rawdata": "0x1808b23c0",
+  "end_of_rawdata": "0x1808b23e8",
+  "address_of_index": "0x180c9f468",
+  "callbacks_array_va": "0x18056c5e8",
+  "callbacks_rva": []
+ }
+}
